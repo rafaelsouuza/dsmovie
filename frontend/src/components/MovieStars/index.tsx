@@ -4,16 +4,15 @@ import { ReactComponent as StarEmpty } from 'assets/img/star-empty.svg';
 import './styles.css';
 
 function MovieStars() {
-
-    return (
-        <div className="dsmovie-stars-container">
-            <StarFull />
-            <StarFull />
-            <StarFull />
-            <StarHalf />
-            <StarEmpty />
-        </div>
-    );
+  return (
+    <div className="dsmovie-stars-container">
+      <StarFull />
+      <StarFull />
+      <StarFull />
+      <StarHalf />
+      <StarEmpty />
+    </div>
+  );
 }
 
 export default MovieStars;
